@@ -1,0 +1,68 @@
+<html>
+<head>
+<title>FORMS</title>
+ <link rel="stylesheet" href="form.css">
+
+</head>
+<body>
+<div class="one">
+  <div class="container">
+    <div class="main"><center>
+      <div class="gif"><h1><center>Register Form</h1></div>
+        <div class="two">
+<table align="center" cellspacing="5" cellpadding="9" border="2">
+
+<tr>
+<td align="center" height="50" width="300">Enter your name</td>
+<td align="left" height="50" width="500"><label for="fname" height="49" width="600"></label>
+<input type="text" id="fname" name="fname"></td>
+</tr>
+<tr>
+<td align="center" height="50" width="300">Enter your password</td>
+<td align="left" height="50" width="500"><label for="fname" height="90" width="600"></label><br>
+<input type="text" id="fname" name="fname"></td>
+</tr>
+<tr>
+<td align="center" height="50" width="300">gender</td>
+<td align="left" height="50" width="500"><form><input type="radio" id="male" name="gender" value="male"><label for="male">male</label><input type="radio" id="female" name="gender" value="female"><label for="male">female</label></form></td>
+</tr>
+<tr>
+<td align="center" height="50" width="300">language</td>
+<td align="left" height="50" width="500"><form><input type="checkbox" id="lan1" name="lan1" value="telugu"><label for="lan1">telugu</label><input type="checkbox" id="lan2" name="lan2" value="english">
+<label for="lan2">english</label><input type="checkbox" id="lan3" name="lan3" value="hindi"><label for="lan3">hindi</label></form></td>
+</tr>
+<tr>
+<td align="center" height="50" width="300">choose the country</td>
+<td align="left" height="50" width="500"><label for="country"></label>
+<select name="country" id="country">
+  <option value="india">INDIA</option>
+  <option value="uk">UK</option>
+  <option value="usa">USA</option>
+  <option value="norway">NORWAY</option>
+</select></td>
+</tr>
+<tr>
+<td align="center" height="100" width="300">give your feedback</td>
+<td align="left" height="100" width="500"><textarea name="message" rows="5" cols="50"></textarea></td>
+</tr>
+<tr>
+<td align="center" height="50" width="300">Enter your DOB</td>
+<td align="left" height="50" width="500"><label for="date"></label><input type="datetime-local" id="date" name="date"></td>
+</tr>
+<tr>
+<td align="center" height="50" width="300">choose the color</td>
+<td align="left" height="50" width="500"><input type="color" id="colour" name="colour"><label for="colour"></label></td>
+</tr>
+</div>
+<div class="another"><tr>
+<td align="center" height="50" width="300"></td>
+<td align="center" height="50" width="500"><form action="mainpage.html"><input type="submit" value="submit"> <t><t><t><t>
+<input type="reset" value="reset"></form></td>
+  <td><ul><a href="1srpade.html">HOME</a></ul></td>
+</tr>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html> 

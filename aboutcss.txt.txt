@@ -1,0 +1,48 @@
+.one
+{
+ background-color:#dd8866;
+ height:100%;
+}
+.back
+{
+  background-image:linear-gradient(to top,rgba(0,0,0,0.3)50%,rgba(0,0,0,0.3)50%),url(about.jpg);
+  width:100%;
+  background-position:center;
+   background-size:cover;
+   height:200px;
+}
+
+.main
+{
+  
+   color:#ff7200;
+  font-size:35px;
+  font-family:Arial;
+  padding-left:200px;
+  float:left;
+  padding-top:30px;
+  margin-top:2.5%;
+  color:#ff7200;
+}
+.matter
+{
+   font-size:25px;
+   padding-left:25px;
+
+}
+.home
+{
+  margin-left:62px;
+  margin-top:9px;
+  font-size:30px;
+  text-decoration:none;
+  color:black;
+  font-family:Arial;
+  font-weight:bold;
+  trnsition:0.4s ease-in-out;
+  text-decoration:none;
+}
+ li a:hover
+{
+  color:maroon;
+}

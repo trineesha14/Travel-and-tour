@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "express": "^4.19.2",
+    "mongodb": "^6.1.0",
+    "mongoose": "^6.10.0",
+    "prompt-sync": "^4.2.0"
+  }
+}

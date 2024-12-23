@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Update Record</title>
+ <style>
+    body,html{
+	    margin:2%;
+		height:80%;
+        background-image: url('hi.jpg');
+		background-position: center;
+	    background-repeat: no-repeat;
+		background-size: cover;
+	}
+	h3{
+	    color:#AA336A;
+		font-family: broadway;
+	}
+</style>
+
+</head>
+<body align="center">
+   <h2 class = "centered"style = "color : #AA336A;font-family: broadway;">UPDATE DETAILS<br><br>
+    <form action="/updates" method="POST">
+<center>
+        <table>
+<tr>
+<th>name</th>
+<td><input type="name" placeholder="enter your name" name="name"></td>
+</tr>
+<tr>
+<th>arrival</th>
+<td><input type="date" placeholder="arrival" name="arrival"></td>
+</tr>
+<tr>
+<tr>
+<th>leaving</th>
+<td><input type="date" placeholder=" leaving" name="leaving"></td>
+
+</tr>
+<tr>
+<th>from</th>
+<td><input type="text" placeholder="from" name="from"></td>
+</tr>
+<tr>
+<th>to</th>
+<td><input type="text" placeholder="to" name="to"></td>
+</tr>
+
+    <br><button type="submit">Update Record</button>
+    </form>
+</body>
+</html>

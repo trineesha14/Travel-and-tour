@@ -1,0 +1,98 @@
+<style>
+	a{
+		text-decoration:none;
+}
+	.regi{
+		width:600px;
+		border:20px solid #ffb226;
+		text-align:center;
+		margin-top:200px;
+		margin-left:450px;
+		color:#ffb226;
+		font-size:20px;
+		}
+	body{
+		background-image:url(img2.jpg);
+		background-repeat:no repeat;
+		background-size:cover;
+		}
+.sa{
+	font-size:25px;
+	color:black;
+	float:right;
+	right:20px;
+}
+.dropbtn {
+  background-color:#0000A0 ;
+  color: white;
+  padding: 6px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: right;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+</style>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Tour Booking Form</title>
+
+</head>
+<body>
+<center>
+  <h1>Tour Booking Form</h1><br>
+
+<h2>
+<form action='/booking' method="post">&nbsp;
+    <label for="name">name:</label>
+    <input type="text" id="name" name="name"><br><br>
+
+    <label for="arrival">arrival:</label>
+    <input type="date" id="arrival" name="arrival" ><br><br>
+<label for="leaving">leaving:</label>
+    <input type="date" id="leaving" name="leaving" ><br><br>
+
+<label for ="from">from:</label>
+ <input type="text" id="from" name="from" ><br><br>
+<label for ="to">to:</label>
+ <input type="text" id="to" name="to" ><br><br>
+
+   
+
+   <button type="submit">submit</button>
+<div class="dropdown">
+  <button class="dropbtn">MORE</button>
+  <div class="dropdown-content">
+    <a href="displays.html">display</a>
+    <a href="updates.html">update</a>
+</div>
+
+  </form>
+
+</body>
+</html>

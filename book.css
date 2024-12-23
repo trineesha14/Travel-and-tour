@@ -1,0 +1,72 @@
+
+body
+{
+padding:0%;
+align:center;
+}
+.one
+{
+      background-image:url(23.webp);url(logback.jpg);
+ font-family:montserrat;
+ background-position:center;
+      background-size:cover;
+ width:100%;
+ height:109vh;
+ text-align:center;
+ 
+}
+.container
+{
+width:400px;
+height:30px;
+padding-left:500px;
+padding-top:60px;
+}
+.main
+{
+   top:50%;
+    left:50%;
+align:center;
+   text-align:center;
+    padding-left:50px;
+padding-top:10px;
+height:300px;
+
+
+width:400px;;
+background:rgba(0%,0%,0%,0.5);
+border-radius:20px;
+border:3px solid silver;
+}
+.gif
+{
+  text-align:center;
+ 
+  text-size:50px;
+ 
+}
+.two
+{
+   text-align:center;
+   
+   text-size:50px;
+   
+}
+
+.another tr input
+{
+height:30px;
+width:90px;
+background-color:#ff7200;
+
+}
+.another ul{
+color:white;
+}
+ul
+{
+color:#ff7200;
+}
+
+
+

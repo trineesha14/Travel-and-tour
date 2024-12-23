@@ -1,0 +1,27 @@
+<html lang="en">
+   <head>
+   <link rel="stylesheet" href="style.css">
+   </head>
+   
+     <body>
+	 <div class="main">
+	    <div class="navi">
+		   <div class="icon">
+		     <h2 class="logo">WELCOME TO THE WORLD OF GAMING!.</h2><br>
+			
+			<div class="matter">Hi,this is about the present Trending e-games globally.Here we provide the information of all the game related apps.</div>
+			</div>
+			<div class="menu">
+			<ul>
+			  <li><a href="#">HOME</a></li>
+			  <li><a href="login.html">LOGIN</a></li>
+			  <li><a href="form.html">REGISTER</a></li>
+			  <li><a href="#">SERVICE</a></li>
+			  <li><a href="aboutus.html">ABOUT US</a></li>
+			  </ul>
+		</div>
+		
+	</div>
+	</body>
+
+</html>

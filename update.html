@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Update Record</title>
+ <style>
+    body,html{
+	    margin:2%;
+		height:80%;
+        background-image: url('hi.jpg');
+		background-position: center;
+	    background-repeat: no-repeat;
+		background-size: cover;
+	}
+	h3{
+	    color:#AA336A;
+		font-family: broadway;
+	}
+</style>
+
+</head>
+<body align="center">
+   <h2 class = "centered"style = "color : #AA336A;font-family: broadway;">UPDATE DETAILS<br><br>
+    <form action="/update" method="POST">
+<center>
+        <table>
+<tr>
+<th>firstname</th>
+<td><input type="firstname" placeholder="enter your Firstname" name="firstname"></td>
+</tr>
+<tr>
+<th>lastname</th>
+<td><input type="lastname" placeholder="enter your Lastname" name="lastname"></td>
+</tr>
+<tr>
+<tr>
+<th>Email</th>
+<td><input type="email" placeholder="enter your email" name="email"></td>
+
+</tr>
+<tr>
+<th>password</th>
+<td><input type="text" placeholder="enter your password name="pass"></td>
+</tr>
+</table>
+places :  
+						</label>   
+						<select name="class">  
+						<option value="Course">COUNTRY</option>  
+						<option value="japan">JAPAN</option>  
+						<option value="china">CHINA</option>  
+						<option value="england">ENGLAND</option>  
+						<option value="france">FRANCE</option>  
+						<option value="germany">GERMANY</option>   
+						</select> <br><br>
+						<label>  
+						season :  
+						</label>   
+						<select name="course"> 
+						<option value="select course">SEASON</option>   
+						<option >WINTER</option>  
+						<option >RAINY</option>  
+						<option >SUMMER</option>  
+						<option >SPRING</option>  
+						<option >AUTUMN</option>  
+						   
+						</select> <br><br>
+</center>
+    <br><button type="submit">Update Record</button>
+    </form>
+</body>
+</html>

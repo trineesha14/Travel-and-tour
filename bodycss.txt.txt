@@ -1,0 +1,16 @@
+body
+{
+   background-color:#D66658;
+}
+.main
+{
+background-color:lightsalmon;
+justify-content:center;
+font-family:bold;
+
+}
+
+td input:hover
+{
+    background-color:#D66658;
+}

@@ -1,0 +1,111 @@
+<!doctype>
+<html>
+<head>
+<title>  
+Registration Page  
+</title>  
+<style>
+	a{
+		text-decoration:none;
+}
+	.regi{
+		width:600px;
+		border:20px solid #ffb226;
+		text-align:center;
+		margin-top:200px;
+		margin-left:450px;
+		color:#ffb226;
+		font-size:20px;
+		}
+	body{
+		background-image:url("back.png");
+		background-repeat:no repeat;
+		background-size:cover;
+		}
+.sa{
+	font-size:25px;
+	color:black;
+	float:right;
+	right:20px;
+}
+</style>
+<script>    
+        function validate() {    
+            var fname = document.reg_form.fname;    
+            var lname = document.reg_form.lname;      
+            var email = document.reg_form.email;    
+            var mobile = document.reg_form.mobile;    
+			var password=document.reg_form.password.value; 
+    
+            if (fname.value.length <= 0) {    
+                alert("Name is required");    
+                fname.focus();    
+                return false;    
+            }    
+            if (lname.value.length <= 0) {    
+                alert("Last Name is required");    
+                lname.focus();    
+                return false;      
+            }    
+            if (mobile.value.length <= 0) {    
+                alert("Mobile number is required");    
+                mobile.focus();    
+                return false;    
+            }    
+			 if (email.value.length <= 0) {    
+                alert("Email Id is required");    
+                email.focus();    
+                return false;    
+			}
+             if( password.length<6 || password.length>15){  
+					alert("Password must be at least 6-15characters long .");  
+					document.myform.password.focus();
+					return false;  
+            }    
+        alert("Registration successfull");
+				return true;   
+        }    
+    </script>    
+</head> 
+ <body bgcolor="black">
+	<div class="regi">
+		<h1>Registration Form</h1>
+			<form action="/register" method="post">
+					<label> Firstname </label>         
+					<input type="text" name="firstname" size="15" /> <br><br>  
+					<label> Laststname </label> 
+					<input type="text" name="lastname" size="15"/> <br><br>  
+					Email:  
+					<input type="email" id="email" name="email"/> <br><br>    
+					Password:  
+					<input type="Password" id="pass" name="pass"> <br> <br> 
+					places :  
+						</label>   
+						<select name="class">  
+						<option value="Course">COUNTRY</option>  
+						<option value="INDIA">INDIA</option>  
+						<option value="china">CHINA</option>  
+						<option value="england">ENGLAND</option>  
+						<option value="france">FRANCE</option>  
+						<option value="germany">GERMANY</option>   
+						</select> <br><br>
+						<label>  
+						season :  
+						</label>   
+						<select name="course"> 
+						<option value="select course">SEASON</option>   
+						<option >WINTER</option>  
+						<option >RAINY</option>  
+						<option >SUMMER</option>  
+						<option >SPRING</option>  
+						<option >AUTUMN</option>  
+						   
+						</select> <br><br>
+
+						
+					<button type="submit">Register</button>  
+			</form>
+	</div>
+<button class="sa"><a href="login.html">previous</a></button><br><br>
+</body>  
+</html>

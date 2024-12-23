@@ -1,0 +1,33 @@
+body
+{
+  display:flex;
+  justify-content:center;
+  min-height:200vh;
+  background:lightsalmon;
+}
+.box
+{
+  width:400px;
+}
+.box h2
+{
+   color:black;
+   background:#D66658;
+   padding:10px 30px;
+   font-family:cursive;
+}
+.box ul li
+{
+  padding:8px;
+  width:70%;
+  background:#D606055;
+  box-shadow:0 4px 16px rgba(0,0,0,.2);
+  transition:transform 0.5s;
+}
+.box ul li:hover
+{
+   transform:scale(1.1);
+   background:#E675424;
+   color:black;
+   box-shadow:0 4px 16px rgba(0,0,0,.2);
+}

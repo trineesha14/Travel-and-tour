@@ -1,0 +1,25 @@
+<html>
+<head>
+ <link rel="stylesheet" href="link.css">
+</head>
+<body>
+ <div class="box">
+      <h2>Categories</h2>
+      <ul>
+	     <li>Action</li>
+		 <li>Adventure</li>
+		 <li>Arcade</li>
+		 <li>Board</li>
+		 <li>Card</li>
+		 <li>Casual</li>
+		 <li>Educational</li>
+		 <li>Horror</li>
+		 <li>Music</li>
+		 <li>Puzzle</li>
+		 <li>Racing</li>
+		 <li>Sports</li>
+		 
+	</ul>
+</div>
+</body>
+</html>
